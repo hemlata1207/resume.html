@@ -1,0 +1,71 @@
+\documentclass[a4paper,10pt]{article}
+
+% Packages
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+
+% Formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\titlerule\vspace{-5pt}]
+
+% Reduce spacing
+\setlist[itemize]{noitemsep, topsep=0pt}
+\pagestyle{empty}
+
+% Start Document
+\begin{document}
+
+% Name and Contact
+\begin{center}
+    {\LARGE \textbf{Hemlata Sawariya}}\\
+    \vspace{4pt}
+    Hyderabad, India \quad $|$ \quad \href{mailto:sawariyahemlata41@gmail.com}{sawariyahemlata41@gmail.com} \quad $|$ \quad +91-9705925401 \\
+    \href{https://linkedin.com/in/hemlata-sawariya-71b768229}{LinkedIn} $|$
+    \href{https://github.com/hemlata1207}{GitHub}
+\end{center}
+
+% Objective
+\section{Career Objective}
+Detail-oriented and proactive Computer Science graduate with strong analytical, organizational, and communication skills. Eager to contribute to Deloitte as a \textbf{PMO Analyst}, leveraging experience in project coordination, data analysis, and stakeholder management gained through academic projects, hackathons, and volunteer leadership roles.
+
+% Education
+\section{Education}
+\textbf{B.Tech – Computer Science \& Engineering} \hfill \textbf{2021 – 2025} \\
+Malla Reddy Institute of Technology and Science, Hyderabad \hfill \textit{CGPA: 6.9}
+
+% Skills
+\section{Core Skills}
+\begin{itemize}
+    \item \textbf{Project \& Operations Support:} Project Coordination, Documentation, Meeting Facilitation, Status Reporting
+    \item \textbf{Tools \& Technologies:} MS Excel, PowerPoint, Word, Python, MySQL, ReactJS, HTML, CSS, JavaScript
+    \item \textbf{Soft Skills:} Communication, Problem-Solving, Team Collaboration, Time Management
+\end{itemize}
+
+% Projects
+\section{Projects}
+\textbf{Lung Cancer Detection using 3D-CNN} \hfill \textit{Python, Machine Learning} \\
+Built a deep learning model for early detection of lung cancer using medical imaging.\\[2pt]
+\textbf{Social Media-Driven Big Data Analysis for Disaster Awareness} \hfill \textit{Java, ML} \\
+Developed a system to process large datasets for real-time disaster monitoring and awareness.
+
+% Internships
+\section{Internships}
+\textbf{Web Development Intern – MotionCut} \hfill \textit{Jan 2023 – Mar 2023} \\
+Developed and optimized responsive web pages using HTML, CSS, JavaScript, and ReactJS.\\[2pt]
+\textbf{AI Internship – TechSaksham (Microsoft \& SAP CSR Initiative)} \hfill \textit{2023} \\
+Worked on AI/ML projects focusing on real-world applications.
+
+% Leadership
+\section{Leadership \& Activities}
+\begin{itemize}
+    \item Member – IEEE Student Chapter
+    \item Volunteer – NSS \& Street Cause Organization
+    \item Participated in multiple hackathons and technical events
+\end{itemize}
+
+\end{document}
